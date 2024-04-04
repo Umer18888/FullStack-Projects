@@ -1,0 +1,133 @@
+/* App.css */
+.nav-bar {
+  width: 1400px;
+  height: 545px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  background: linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%);
+}
+
+.smaller-image {
+  width: 244px;
+  height: 23.01px;
+  top: 28px;
+  left: 124px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 21px 124px 21px 124px;
+}
+
+.heading-1 {
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  
+}
+
+.paragraph-1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.button-1 {
+  width: 240px;
+  height: 52px;
+  padding: 14px 32px;
+  gap: 10px;
+  border-radius: 100px; /* Make button completely round */
+  border: 1px; /* Remove border */
+  opacity: 0px;
+  text-align: center;
+  margin: auto; /* Center the button horizontally */
+  background: linear-gradient(93.05deg, #FF66C4 5.8%, rgba(242, 74, 177, 0) 98.1%);
+  margin-left: 600px;
+}
+
+
+.paragraph-2 {
+  width: 611px;
+  height: 294px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+margin-left: 100px;
+  
+}
+
+.heading-2 {
+ 
+  margin-left: 100px;
+
+}
+
+.Section-3 {
+  text-align: center;
+}
+
+.image-2 {
+  width: 601px;
+height: 541px;
+top: 1647px;
+left: 419px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+ .Section-4 {
+  background: #F3F2FF;
+  text-align: center;
+  width: 1400px;
+height: 589px;
+top: 2300px;
+left: -64px;
+gap: 0px;
+opacity: 0px;
+
+ }
+
+ .section-2-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.text-container {
+  flex: 1;
+}
+
+.images-container {
+  position: relative; /* Position relative to the container */
+}
+
+.section-2-image1 {
+  position: absolute; /* Position absolute within the container */
+  top: -170px; /* Adjust top position */
+  left: -420px; /* Add left position */
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.section-2-image2 {
+  position: absolute; /* Position absolute within the container */
+  top: -50px; /* Adjust top position */
+  left: -350px; /* Add left position */
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
