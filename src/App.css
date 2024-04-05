@@ -1,11 +1,12 @@
 /* App.css */
-.nav-bar {
+.Section-1 {
   width: 1400px;
   height: 545px;
   gap: 0px;
   opacity: 0px;
   color: white;
   background: linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%);
+  /* clip-path: path("M0,545L0,200Q200,100,400,200Q600,300,800,200Q1000,100,1200,200Q1400,300,1400,545Z"); */
 }
 
 .smaller-image {
@@ -42,13 +43,46 @@
   height: 52px;
   padding: 14px 32px;
   gap: 10px;
-  border-radius: 100px; /* Make button completely round */
-  border: 1px; /* Remove border */
+  border-radius: 100px; 
+  border: 1px; 
   opacity: 0px;
   text-align: center;
-  margin: auto; /* Center the button horizontally */
+  margin: auto; 
   background: linear-gradient(93.05deg, #FF66C4 5.8%, rgba(242, 74, 177, 0) 98.1%);
   margin-left: 600px;
+}
+
+.Section-2{
+  display: flex;
+  align-items: center; 
+}
+
+.text-container {
+  flex: 1;
+}
+
+.images-container {
+  position: relative; 
+}
+
+.section-2-image1 {
+  position: absolute; 
+  top: -170px; 
+  left: -420px; 
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.section-2-image2 {
+  position: absolute; 
+  top: -50px; 
+  left: -350px; 
+  width: 300px;
+  height: 200px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
 }
 
 
@@ -98,36 +132,54 @@ opacity: 0px;
 
  }
 
- .section-2-container {
-  display: flex;
-  align-items: center; /* Align items vertically */
-}
-
-.text-container {
-  flex: 1;
-}
-
-.images-container {
-  position: relative; /* Position relative to the container */
-}
-
-.section-2-image1 {
-  position: absolute; /* Position absolute within the container */
-  top: -170px; /* Adjust top position */
-  left: -420px; /* Add left position */
-  width: 300px;
-  height: 200px;
-  border-radius: 8px 0px 0px 0px;
+ .Section-5 {
+  background: linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%);
+  width: 1440px;
+  height: 1374px;
+  top: 2778px;
+  gap: 0px;
   opacity: 0px;
+  
+ }
+
+ .paragraph-5 {
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-left: 100px;
+  
 }
 
-.section-2-image2 {
-  position: absolute; /* Position absolute within the container */
-  top: -50px; /* Adjust top position */
-  left: -350px; /* Add left position */
-  width: 300px;
-  height: 200px;
-  border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+.heading-5 {
+ 
+  margin-left: 100px;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 56px;
+text-align: left;
+
+
 }
 
+.row {
+  display: flex; /* Display children elements horizontally */
+  justify-content: center; /* Center children elements horizontally */
+  align-items: center; /* Center children elements vertically */
+}
+
+.column {
+  margin: 10px; /* Adjust spacing between images */
+}
+
+.VerticalImages {
+  width: 376px;
+height: 362px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+
+}
