@@ -1,6 +1,6 @@
 /* App.css */
 .Section-1 {
-  width: 1400px;
+  width: 1440px;
   height: 545px;
   gap: 0px;
   opacity: 0px;
@@ -44,7 +44,7 @@
   padding: 14px 32px;
   gap: 10px;
   border-radius: 100px; 
-  border: 1px; 
+  border: 1px solid; 
   opacity: 0px;
   text-align: center;
   margin: auto; 
@@ -123,7 +123,7 @@ opacity: 0px;
  .Section-4 {
   background: #F3F2FF;
   text-align: center;
-  width: 1400px;
+  width: 1440px;
 height: 589px;
 top: 2300px;
 left: -64px;
@@ -169,6 +169,7 @@ text-align: left;
   display: flex; /* Display children elements horizontally */
   justify-content: center; /* Center children elements horizontally */
   align-items: center; /* Center children elements vertically */
+  margin-left: 40px;
 }
 
 .column {
@@ -181,5 +182,38 @@ height: 362px;
 gap: 0px;
 border-radius: 12px 0px 0px 0px;
 opacity: 0px;
+
+}
+
+.Service-Button{
+  width: Hug (262px)px;
+  height: Hug (48px)px;
+  top: 598px;
+  left: 408px;
+  padding: 14px 32px;
+  gap: 10px;
+  border-radius: 100px; 
+  border: 1px; 
+  opacity: 0px;
+  text-align: center;
+  margin: auto; 
+  background-color: white;
+  border: 1px solid;
+  
+}
+
+.Service-heading {
+  text-align: center;
+
+}
+
+.logo-div {
+  width: 1440px;
+height: 211px;
+top: 5110px;
+left: -37px;
+gap: 0px;
+opacity: 0px;
+background: linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%);
 
 }

@@ -60,20 +60,36 @@ function App() {
           <p className="paragraph-5">Lorem ipsum dolor sit amet consectetur. Blandit sodales <br></br> lacus vulputate aenean aliquam accumsan vestibulum in sit <br></br> Blandit sodales lacus vulputate aenean aliquam accumsa</p>
         </div>
       </section>
-      <section>
+      <section className="Section-6">
+        <h1 className="Service-heading"> Overview of Services</h1>
       <div class="row">
   <div className="column">
     <img src={vimage1} alt="img" className="VerticalImages"/>
+    <h2>Bespoke Web Design</h2>
+    <p>Lorem ipsum dolor sit amet consectetur. Eu massa turpis adipiscing libero rhoncus posuere tempus. Sed fringilla malesuada felis vitae. Montes mattis ultrices maecenas et. Ut ultricies viverra volutpat </p>
+    <button className="Service-Button">Bespoke Web Design</button>
   </div>
   <div className="column">
     <img src={vimage2} alt="img" className="VerticalImages" />
+    <h2>App Development</h2>
+    <p>Lorem ipsum dolor sit amet consectetur. Eu massa turpis adipiscing libero rhoncus posuere tempus. Sed fringilla malesuada felis vitae. Montes mattis ultrices maecenas et. Ut ultricies viverra volutpat  </p>
+    <button className="Service-Button">App Development</button>
   </div>
   <div className="column">
     <img src={vimage3} alt="img" className="VerticalImages" />
+    <h2>Digital Marketing</h2>
+    <p>Lorem ipsum dolor sit amet consectetur. Eu massa turpis adipiscing libero rhoncus posuere tempus. Sed fringilla malesuada felis vitae. Montes mattis ultrices maecenas et. Ut ultricies viverra volutpat </p>
+    <button className="Service-Button">Digital Marketing</button>
   </div>
   </div>
       </section>
+
+  <div className="logo-div">
+
+  </div>
     </>
+
+
   );
 }
 
