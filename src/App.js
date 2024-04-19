@@ -87,6 +87,12 @@ function App() {
   <div className="logo-div">
 
   </div>
+  <div className="logo-div">
+
+  </div>
+  <div className="logo-div">
+
+  </div>
     </>
 
 
